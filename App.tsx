@@ -2,18 +2,26 @@
 import React from 'react';
 import { WebView } from 'react-native-webview';
 import {
-  StyleSheet
+  StyleSheet, Alert
 } from 'react-native';
 
 import {
   Colors
 } from 'react-native/Libraries/NewAppScreen';
+import fs from 'fs';
 
 declare const global: { HermesInternal: null | {} };
 
 const App = () => {
+
   return (
-          <WebView source={{ uri: 'http://estaciodocente.webaula.com.br/cursos/EX0031/aula2.html' }} />
+    <WebView
+      source={{ uri: 'file:///android_asset/Web.bundle/aula2.html' }}
+      onMessage={(event) => {
+        Alert.alert(event.nativeEvent.data);
+      }}
+      style={{flex: 1}}
+    />
   );
 };
 

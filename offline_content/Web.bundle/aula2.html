@@ -1,0 +1,1888 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061) -->
+<html dir="ltr" lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--< Reset dom-->
+	<link rel="stylesheet" href="./aula2_files/reset.css">
+
+	<!--< Framework -->
+	<link rel="stylesheet" href="./aula2_files/bootstrap.min.css" media="screen">
+
+
+	<!--< Ícones -->
+	<link href="./aula2_files/icon" rel="stylesheet">
+	<link rel="stylesheet" href="./aula2_files/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!--< Estrutura -->
+	<link rel="stylesheet" href="./aula2_files/estrutura.css" title="1" media="screen">
+	<link rel="stylesheet" href="./aula2_files/responsivo.css" title="1" media="screen">
+
+	<!--< Acessibilidade -->
+	<link rel="alternate stylesheet" href="http://estaciodocente.webaula.com.br/cursos/repositorio_graduacao/v1/css/estilo-altocontraste.css" title="2" media="screen">
+
+	<!--< Customizável-->
+	<link rel="stylesheet" href="">
+
+	<!--< Impressão -->
+	<link rel="stylesheet" type="text/css" href="./aula2_files/print.css" media="print">
+
+
+	<!-- Fórmulas Matemáticas -->
+	<script type="text/javascript" src="./aula2_files/MathJax.js"></script>
+
+	<title>Estácio - Disciplina online</title>
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">div.MathJax_MathML {text-align: center; margin: .75em 0px; display: block!important}
+.MathJax_MathML {font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+span.MathJax_MathML {display: inline!important}
+.MathJax_mmlExBox {display: block!important; overflow: hidden; height: 1px; width: 60ex; min-height: 0; max-height: none; padding: 0; border: 0; margin: 0}
+[class="MJX-tex-oldstyle"] {font-family: MathJax_Caligraphic, MathJax_Caligraphic-WEB}
+[class="MJX-tex-oldstyle-bold"] {font-family: MathJax_Caligraphic, MathJax_Caligraphic-WEB; font-weight: bold}
+[class="MJX-tex-caligraphic"] {font-family: MathJax_Caligraphic, MathJax_Caligraphic-WEB}
+[class="MJX-tex-caligraphic-bold"] {font-family: MathJax_Caligraphic, MathJax_Caligraphic-WEB; font-weight: bold}
+@font-face /*1*/ {font-family: MathJax_Caligraphic-WEB; src: url('http://www.hostmath.com/Math/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf')}
+@font-face /*2*/ {font-family: MathJax_Caligraphic-WEB; font-weight: bold; src: url('http://www.hostmath.com/Math/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Bold.otf')}
+[mathvariant="double-struck"] {font-family: MathJax_AMS, MathJax_AMS-WEB}
+[mathvariant="script"] {font-family: MathJax_Script, MathJax_Script-WEB}
+[mathvariant="fraktur"] {font-family: MathJax_Fraktur, MathJax_Fraktur-WEB}
+[mathvariant="bold-script"] {font-family: MathJax_Script, MathJax_Caligraphic-WEB; font-weight: bold}
+[mathvariant="bold-fraktur"] {font-family: MathJax_Fraktur, MathJax_Fraktur-WEB; font-weight: bold}
+[mathvariant="monospace"] {font-family: monospace}
+[mathvariant="sans-serif"] {font-family: sans-serif}
+[mathvariant="bold-sans-serif"] {font-family: sans-serif; font-weight: bold}
+[mathvariant="sans-serif-italic"] {font-family: sans-serif; font-style: italic}
+[mathvariant="sans-serif-bold-italic"] {font-family: sans-serif; font-style: italic; font-weight: bold}
+@font-face /*3*/ {font-family: MathJax_AMS-WEB; src: url('http://www.hostmath.com/Math/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf')}
+@font-face /*4*/ {font-family: MathJax_Script-WEB; src: url('http://www.hostmath.com/Math/fonts/HTML-CSS/TeX/otf/MathJax_Script-Regular.otf')}
+@font-face /*5*/ {font-family: MathJax_Fraktur-WEB; src: url('http://www.hostmath.com/Math/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Regular.otf')}
+@font-face /*6*/ {font-family: MathJax_Fraktur-WEB; font-weight: bold; src: url('http://www.hostmath.com/Math/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Bold.otf')}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax:focus, body :focus .MathJax {display: inline-table}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block!important; overflow: hidden; width: 1px; height: 60ex; min-height: 0; max-height: none}
+.MathJax .MathJax_EmBox {display: block!important; overflow: hidden; width: 1px; height: 60em; min-height: 0; max-height: none}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Blank; src: url('about:blank')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+
+<body onload="loadPage();" onunload="doContinue(&#39;completed&#39;);" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" class="" style=""><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div>
+	<header>
+		<!-- Barra Acessibilidade -->
+		<div class="container-fluid d-none d-lg-block mdc-bg-grey-900 d-print-none" id="box-acessibilidade" aria-hidden="true">
+			<div class="row justify-content-center">
+				<div class="col-12 text-right">
+					<span class="px-2 bd-highlight"><a href="" data-toggle="modal" data-target="#modalAcessibilidade">Acessibilidade</a></span>
+
+					<a href="#" id="btn-altocontraste" title="Ativar alto contraste"><span><i class="fa fa-adjust flip-horizontal-1" aria-hidden="true"></i></span></a>
+
+					<a href="#" class="mx-2 aumenta-texto" id="btnAumentar" title="Aumentar texto"><span>A+</span></a>
+
+					<a href="#" class="diminui-texto" id="btnDiminuir" title="Diminuir texto"><span>A-</span></a>
+				</div>
+			</div>
+		</div>
+
+
+		<p class="d-print-none d-none sr-only">As imagens classificadas nesta aula como “descanso visual” foram utilizadas
+			para compor a estética da aula e possibilitar maior conforto para os alunos videntes, sem trazer informações
+			relevantes para o estudo do conteúdo. Assim, terão apenas uma descrição resumida.</p>
+
+		<!-- Menu lateral suspenso -->
+		<div class="si-sticky rs_skip" aria-hidden="true">
+			<a href="" title="Tópicos da aula" class="menu-suspenso si-colored" data-toggle="modal" data-target="#topicosAula"><i class="material-icons my-1">list</i></a>
+			<a href="" onclick="printPreview();" title="Imprimir" class="menu-suspenso si-colored d-none d-md-block"><i class="material-icons my-1">print</i></a>
+			<a href="" data-toggle="modal" data-src="" data-target="#modalVideo" title="videoaula" class="menu-suspenso si-colored"><i class="material-icons my-1">ondemand_video</i></a>
+		</div>
+
+		<!-- Modal tópicos da aula -->
+		<div class="modal animated slideInRight modal-conteudo d-print-none rs_skip" id="topicosAula" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong" aria-hidden="true" style="display: none;">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3>Tópicos da aula</h3>
+						<button type="button" class="close close-rodape" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+					</div>
+					<hr class="hr-titulo">
+					<div class="modal-body topicos">
+						<a href="#topico-01">Evolução e formação da gastronomia brasileira</a>
+						<a href="#topico-02">Evolução da gastronomia durante o Império</a>
+						<a href="#topico-03">Atividade</a>
+						<a href="#topico-04">Chegada dos imigrantes</a>
+						<a href="#topico-05">Atividade</a>
+						<a href="#topico-06">Região Sudeste</a>
+						<a href="#topico-07">Centro-Oeste</a>
+						<a href="#topico-08">Norte</a>
+						<a href="#topico-09">Nordeste</a>
+						<a href="#topico-10">Atividade</a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Nome da Disciplina e da Aula -->
+		<div class="container-fluid text-center">
+			<div class="row" id="box-titulo-disciplina">
+				<div class="col py-4">
+					<h3>Disciplina: Cozinha brasileira (Norte/Nordeste)</h3>
+				</div>
+			</div>
+
+			<div class="row" id="box-titulo-aula">
+				<div class="col py-3">
+					<h3>Aula 2: Histórico da formação gastronômica brasileira</h3>
+				</div>
+			</div>
+		</div>
+
+		<!-- Imagem abertura -->
+		<div class="img_abertura d-print-none mdc-bg-grey-900" style="background: url(aula2_files/abertura.jpg) no-repeat center top" role="img" aria-label="Imagem de abertura da aula"></div>
+		<div class="img_abertura2 d-none d-print-block" style="background: url(//estacio.webaula.com.br/Cursos/repositorio_graduacao/v1/img/print_bg.jpg) no-repeat center bottom" role="img" aria-hidden="true"></div>
+
+		<!-- Apresentacao/objetivos -->
+		<div class="container-fluid pt-5" id="box-apresentacao-objetivos">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 my-4">
+						<h3 class="mb-4">Apresentação</h3>
+
+						<p>Nesta aula, apresentaremos os aspectos que distinguem as regiões e as influências recebidas de países europeus
+							e asiáticos na construção da gastronomia regional brasileira.
+						</p>
+
+
+
+
+					</div>
+				</div>
+				<hr aria-hidden="true">
+				<div class="row">
+					<div class="col-12 my-5">
+						<h3 class="mb-4">Objetivos</h3>
+						<ul>
+							<li class="mb-3">Apontar a evolução histórica da gastronomia brasileira;</li>
+							<li class="mb-3">Distinguir a gastronomia por regiões do Brasil;</li>
+							<li class="mb-3">Reconhecer influências dos imigrantes na gastronomia regional brasileira.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Inicio conteudo aula -->
+	<section id="conteudo" class="conteudo">
+
+
+
+
+		<!-- BLOCO TEXTO -->
+		<div class="container mt-5" id="topico-01">
+			<div class="row">
+				<div id="" class="col-12">
+					<h1 class="titulo mb-2">Evolução e formação da gastronomia brasileira</h1>
+				</div>
+			</div>
+		</div>
+		<!-- FIM BLOCO DE TEXTO -->
+
+
+
+
+
+
+
+		<!-- Recurso texto com imagem a direita-->
+		<div class="container-fluid py-5">
+			<div class="container">
+				<div class="row align-items-start">
+					<div class="col-12 col-sm-6 col-lg-6">
+						<p>Repleta de influências, a cozinha brasileira começou com a mistura entre as culturas indígena, portuguesa e
+							africana. Segundo Freixa e Chaves (2012, p. 177), a gastronomia brasileira começou a se consolidar a partir do
+							século XVII, com a implementação dos engenhos de <span class="mdc-text-yellow-900" style="font-size:20px"><strong>cana-de-açúcar</strong></span>
+							no Nordeste.
+						</p>
+
+						<p>Este é um fator importante, mas o aspecto determinante para esta consolidação foi a chegada das famílias
+							portuguesas, que vieram com o objetivo de se estabelecerem e constituírem uma sociedade. A presença do núcleo
+							familiar organizado, sob a <a href="" class="link-modal mdc-bg-blue-100 mdc-text-blue-900 p-1 " data-toggle="modal" data-target="#modal-conteudo-01">administração da mulher portuguesa <sup>1</sup></a>, foi fundamental para essa
+							consolidação.
+						</p>
+
+					</div>
+					<div class="col-12 col-sm-6 col-lg-6" aria-hidden="true">
+						<div class="row">
+							<div class="col-12 order-12">
+								<div class="legenda mt-2">
+									<div>
+										<i class="material-icons"></i>
+										<span>Fonte: Por cgdeaw (Adaptado) / Shutterstock.</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 order-1 ">
+								<img src="./aula2_files/img01.jpg" alt="" class="img-fluid ">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+<!-- VÍDEO VIMEO -->
+<div class="container recursoVideo my-4">
+	<div class="row">
+		<div class="col-12 d-print-none">
+			<div class="embed-responsive embed-responsive-16by9">
+	            <video controls>
+                     <source src="./aula2_files/1236897983.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- VÍDEO VIMEO -->		
+
+
+
+
+
+		<!-- Recurso texto com imagem a esquerda-->
+		<div class="container-fluid py-5">
+			<div class="container">
+				<div class="row align-items-start">
+					<div class="col-12 col-sm-6" aria-hidden="true">
+						<div class="row aos-init" data-aos="fade-right" data-aos-duration="4000">
+							<div class="col-12 order-12">
+								<div class="legenda mt-2">
+									<div class=""><i class="material-icons"></i>
+										<span>Fonte: Por Anna Kucherova (Adaptado) / Shutterstock.</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 order-1 ">
+								<img src="./aula2_files/img02.jpg" alt="" class="img-fluid ">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-6">
+						<p>As receitas foram trazidas pelas mulheres portuguesas, preparadas e adaptadas com os ingredientes locais, com
+							ajuda da mulher africana, que muitas vezes fez suas intervenções criativas com sucesso. As receitas, que serão
+							abordadas nas aulas sobre a culinária da região Nordeste, giravam em torno do uso do açúcar, produzido em
+							abundância, da mandioca e das <span class="mdc-text-yellow-900" style="font-size:20px"><strong>frutas tropicais</strong></span>.
+							No litoral, concentrava-se a maior parte da população por conta
+							das lavouras de cana-de-açúcar.
+						</p>
+
+						<p>Um dos fatores de ocupação do interior foi a expansão da pecuária, inicialmente de subsistência e que servia
+							como força de trabalho nos engenhos, mas depois passou a ser usada também como estratégia de domínio das terras.
+							Os tropeiros do Nordeste levavam carne seca, rapadura e queijo coalho para se alimentar durante a viagem.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+<!-- VÍDEO VIMEO -->
+<div class="container recursoVideo my-4">
+	<div class="row">
+		<div class="col-12 d-print-none">
+			<div class="embed-responsive embed-responsive-16by9">
+	            <video controls>
+                     <source src="./aula2_files/1236900232.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- VÍDEO VIMEO -->		
+
+
+
+
+
+		<!-- Recurso texto com imagem a direita-->
+		<div class="container-fluid py-5">
+			<div class="container">
+				<div class="row align-items-start">
+					<div class="col-12 col-sm-6 col-lg-6">
+						<p>A procura do ouro e das pedras preciosas proporcionou o avanço das populações em direção ao interior do país,
+							nas regiões de São Paulo, Minas Gerais e parte do Centro Oeste. Os bandeirantes faziam o plantio de roças de
+							<span class="mdc-text-yellow-900" style="font-size:20px"><strong>milho</strong></span>, banana, mandioca e
+							feijão, disseminando estas culturas e garantindo a sobrevivência na volta das marchas.
+						</p>
+
+						<p>Durante as viagens, iam coletando frutas pelo caminho como jabuticaba, abacaxi, pitanga, araçá, araticum,
+							entre outras, conhecendo e adaptando-se aos alimentos nativos, incluindo folhas e talos como “peixe da horta”,
+							“ora-pro-nóbis” e “cambuquira” (flor da abóbora), que ainda hoje fazem parte do cardápio de Minas Gerais.
+						</p>
+
+					</div>
+					<div class="col-12 col-sm-6 col-lg-6" aria-hidden="true">
+						<div class="row">
+							<div class="col-12 order-12">
+								<div class="legenda mt-2">
+									<div>
+										<i class="material-icons"></i>
+										<span>Fonte: Por JIANG HONGYAN (Adaptado) / Shutterstock.</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 order-1 ">
+								<img src="./aula2_files/img03.jpg" alt="" class="img-fluid ">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<!-- Recurso texto com imagem a esquerda-->
+		<div class="container-fluid py-5">
+			<div class="container">
+				<div class="row align-items-start">
+					<div class="col-12 col-sm-6" aria-hidden="true">
+						<div class="row aos-init" data-aos="fade-right" data-aos-duration="4000">
+							<div class="col-12 order-12">
+								<div class="legenda mt-2">
+									<div class=""><i class="material-icons"></i>
+										<span>Fonte: Por rodrigobark (Adaptado) / Shutterstock.</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 order-1 ">
+								<img src="./aula2_files/img04.jpg" alt="" class="img-fluid ">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-6">
+						<p>A <span class="mdc-text-yellow-900" style="font-size:20px"><strong>farinha de mandioca</strong></span>, também
+							conhecida como farinha de guerra, era insumo imprescindível, sendo levada em
+							cestos trançados de palmeira forrados de folha de bananeira seca ou nas malas de farinha feitas de couro.
+						</p>
+
+						<p>Pela necessidade de suprir a região das Minas Gerais de alimentos, os tropeiros optaram pelo uso das mulas,
+							que vinham da região do Rio Grande do Sul, onde já se criavam cavalos. As mulas conseguiam carregar até 150
+							quilos de carga e, além de alimentos, transportavam remédios, utensílios e todo tipo de objetos. Para os
+							garimpeiros, os tropeiros, além de proporcionarem o abastecimento de víveres, também traziam cartas de parentes
+							e notícias das cidades do litoral.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<!-- Recurso texto com imagem a direita-->
+		<div class="container-fluid py-5">
+			<div class="container">
+				<div class="row align-items-start">
+					<div class="col-12 col-sm-6 col-lg-6">
+						<p>Com o passar dos anos, vilas cresceram em volta dos ranchos para repouso dos tropeiros e dos animais. Nas
+							paradas, o preparo de comidas era feito em panelas de ferro, dando origem a pratos que são típicos destas
+							regiões, como o “virado à paulista”, preparado com feijão preto e farinha de mandioca, ou ‘tutu à mineira’,
+							engrossado com farinha de milho ou mandioca e servido com costelinha de porco.
+						</p>
+
+						<p>A carne de porco era a mais utilizada, da qual aproveitavam tudo, inclusive rabos e pés e orelhas que eram
+							salgados, toucinho e <span class="mdc-text-yellow-900" style="font-size:20px"><strong>linguiça</strong></span>,
+							defumados no fogão à lenha, e as carnes que eram cozidas e conservadas na própria
+							banha.
+						</p>
+
+					</div>
+					<div class="col-12 col-sm-6 col-lg-6" aria-hidden="true">
+						<div class="row">
+							<div class="col-12 order-12">
+								<div class="legenda mt-2">
+									<div>
+										<i class="material-icons"></i>
+										<span>Fonte: Por GSDesign (Adaptado) / Shutterstock.</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 order-1 ">
+								<img src="./aula2_files/img05.jpg" alt="" class="img-fluid ">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+		<!-- BLOCO TEXTO -->
+		<div class="container mt-3">
+			<div class="row">
+				<div id="" class="col-12">
+					<p>A força da economia baseada na mineração trouxe como um dos resultados a mudança da capital do Brasil de
+						Salvador para o Rio de Janeiro em 1763. Mesmo assim, a diversidade original da comida nordestina permanece forte
+						até os dias de hoje, como veremos nas aulas específicas da região Nordeste.
+					</p>
+
+					<p>Após o declínio da mineração, no final do século XVIII, a criação do gado bovino foi implementada na região de
+						Minas Gerais, aumentando a produção de carne, leite e derivados.
+					</p>
+
+				</div>
+			</div>
+		</div>
+		<!-- FIM BLOCO DE TEXTO -->
+
+
+
+
+		<!-- BLOCO TEXTO -->
+		<div class="container mt-5" id="topico-02">
+			<div class="row">
+				<div id="" class="col-12">
+					<h1 class="titulo mb-2">Evolução da gastronomia durante o Império</h1>
+					<!-- <h2 class='subtitulo'>INSERIR SUBTÍTULO AQUI</h2> -->
+					<p>Conheça alguns pontos interessantes que fizeram parte da evolução da gastronomia brasileira durante o império.</p>
+				</div>
+			</div>
+		</div>
+		<!-- FIM BLOCO DE TEXTO -->
+
+
+
+
+		<!-- Recurso Accordion -->
+		<div class="container-fluid my-5 py-5">
+			<div class="container recursoAccordion">
+				<div class="row">
+					<div class="col-12">
+						<div class="legendaTop mt-2 align-self-center">
+							<i class="material-icons"></i><span class="mr-2 legentaTop-spanDesktop">Clique nos botões para ver as
+								informações.</span><span class="mr-2 legentaTop-spanMobile">Objeto com interação.</span>
+						</div>
+
+						<div id="accordion01" role="tablist">
+							<div class="card mb-1">
+								<div class="card-header mdc-bg-light-blue-900" role="tab" id="heading01-01">
+									<h4><a class="collapsed mdc-text-grey-50 text-center" data-toggle="collapse" href="#collapse01-01" aria-expanded="false" aria-controls="collapse01-01">Chegada da família real portuguesa</a></h4>
+								</div>
+
+								<div id="collapse01-01" class="collapse" role="tabpanel" aria-labelledby="heading01-01" data-parent="#accordion01">
+									<div class="card-body mdc-bg-light-blue-100">
+										<p class="mb-3">A gastronomia cresce na segunda metade do século XIX. Em 1763, a economia do ouro e pedras
+											preciosas provocou a mudança da capital de Salvador para Rio de Janeiro.
+										</p>
+
+										<p class="mb-3">Um grande evento impulsionador da gastronomia foi a vinda da família real portuguesa em 1808.
+											Começa a chegar ao Brasil a gastronomia francesa e os modos de serviço à mesa mudam.
+										</p>
+
+										<p class="mb-0">Este é um período de crescimento das artes, incentivado por Dom João VI, que toma iniciativa
+											de embelezar a cidade do Rio de Janeiro. Chegaram arquitetos e pintores, entre eles Jean Baptiste Debret,
+											que morou quinze anos no Brasil. Seus quadros retratavam o cotidiano das pessoas, incluindo o comércio de
+											alimentos, feito por escravas de ganho, que, sob a ordem de seus senhores – que ficavam com o lucro –,
+											vendiam ovos, frutas, verduras, bolos e doces. Elas são as precursoras dos atuais vendedores de comida de
+											rua (água de coco, milho verde cozido, salgados e doces diversos), que hoje se encontram nas ruas das
+											grandes cidades.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="card mb-1">
+								<div class="card-header mdc-bg-light-blue-900" role="tab" id="heading01-02">
+									<h4><a class="collapsed mdc-text-grey-50 text-center" data-toggle="collapse" href="#collapse01-02" aria-expanded="false" aria-controls="collapse01-02">Hábitos alimentares</a></h4>
+								</div>
+
+								<div id="collapse01-02" class="collapse" role="tabpanel" aria-labelledby="heading01-02" data-parent="#accordion01">
+									<div class="card-body mdc-bg-light-blue-100">
+										<p class="mb-3">Segundo relato das escritoras Freixa e Chaves (2012, p. 193) foi no início do período do
+											Império que o feijão se une ao arroz, tornando-se a combinação mais popular do Brasil até os dias de hoje. O
+											cultivo do café começa a substituir a mineração no processo de enriquecimento econômico do Brasil. As
+											baianas de acarajé chegaram ao Rio de Janeiro em 1822 e ofereciam em seus tabuleiros, além dos famosos
+											bolinhos, bolo de milho, paçoca, entre outras iguarias.
+										</p>
+
+										<p class="mb-3">Grande variedade de gêneros alimentícios de diferentes países passaram a abastecer a corte
+											imperial e as famílias ricas. Entre estes produtos importados estavam presuntos, salames e embutidos
+											portugueses, azeites, conservas, chás e frutas secas.
+										</p>
+
+										<p class="mb-3">Para acompanhar as refeições, servia-se champanhe e vinhos tintos e brancos franceses,
+											espanhóis e portugueses. As mesas ganharam requinte com uso de louça francesa, talheres e baixelas inglesas,
+											xícaras, taças e bules de origem europeia. (FREIXA; CHAVES, 2012, p. 196)
+										</p>
+
+										<p class="mb-0">Os ricos do Rio de Janeiro, de origem portuguesa, mantinham no cardápio o cozido, as sopas
+											portuguesas e a galinha com arroz. A farinha de trigo era rara e os pães eram feitos de milho e mandioca.
+											Com a abertura de padarias pelos portugueses, o pão de trigo foi tomando a preferência e se tornando um
+											hábito.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="card mb-1">
+								<div class="card-header mdc-bg-light-blue-900" role="tab" id="heading01-03">
+									<h4><a class="collapsed mdc-text-grey-50 text-center" data-toggle="collapse" href="#collapse01-03" aria-expanded="false" aria-controls="collapse01-03">Dom Pedro e o gosto pela comida</a></h4>
+								</div>
+
+								<div id="collapse01-03" class="collapse" role="tabpanel" aria-labelledby="heading01-03" data-parent="#accordion01">
+									<div class="card-body mdc-bg-light-blue-100">
+										<p class="mb-3">Dom Pedro I, assim como seu pai, era um amante da boa comida. Historiadores relatam que
+											gostavam de carne de porco, como todo bom português, muita gordura, galinha com arroz e receitas à base de
+											miolos e fígado. Tudo temperado com alho e pimenta.
+										</p>
+
+										<p class="mb-0">Após seu retorno a Portugal, ele foi substituído por seu Filho, Dom Pedro II, que era um
+											homem de costumes simples à mesa, gostava de canja, doce de fígado e sorvete, sua paixão. Ele apoiou a
+											importação do produto, que era preparado de forma bem rudimentar. A sorveteria de um italiano, Antonio
+											Francione, preparava um sorvete de pitanga que o imperador adorava (FREIXA; CHAVES, 2012, p. 200).
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="card mb-1">
+								<div class="card-header mdc-bg-light-blue-900" role="tab" id="heading01-04">
+									<h4><a class="collapsed mdc-text-grey-50 text-center" data-toggle="collapse" href="#collapse01-04" aria-expanded="false" aria-controls="collapse01-04">O cozinheiro imperial</a></h4>
+								</div>
+
+								<div id="collapse01-04" class="collapse" role="tabpanel" aria-labelledby="heading01-04" data-parent="#accordion01">
+									<div class="card-body mdc-bg-light-blue-100">
+										<p class="mb-3">No palácio de São Cristóvão, quem comandava a cozinha era o cozinheiro R.C.M., do qual não se
+											sabe o nome completo. Suas receitas foram compiladas no livro “O cozinheiro imperial”, datado de 1840. O
+											livro reúne mais de mil receitas organizadas pelos tipos de alimentos: sopas, carne de vaca, de porco,
+											cabrito, coelho, lebre, aves, caças, peixes, frutos do mar, legumes, molhos, ovos, leite, massas e doces.
+										</p>
+
+										<p class="mb-0">Ele se tornou um marco entre os livros de culinária brasileira. Seu sucesso foi tão grande
+											que foi reeditado e atualizado muitas vezes. Contém muitas receitas nacionais, como galinha com quiabo, sopa
+											de cará, tutu à mineira, além de doces e geleias de frutas brasileiras.
+										</p>
+
+									</div>
+								</div>
+							</div>
+							<div class="card mb-1">
+								<div class="card-header mdc-bg-light-blue-900" role="tab" id="heading01-05">
+									<h4><a class="collapsed mdc-text-grey-50 text-center" data-toggle="collapse" href="#collapse01-05" aria-expanded="false" aria-controls="collapse01-05">Os livros</a></h4>
+								</div>
+
+								<div id="collapse01-05" class="collapse" role="tabpanel" aria-labelledby="heading01-05" data-parent="#accordion01">
+									<div class="card-body mdc-bg-light-blue-100">
+										<p class="mb-3">Décadas mais tarde foi lançado o “Dicionário do Doceiro Brasileiro”, de autoria de Antonio
+											José Souza Rego, recentemente reeditado pelo SENAC, com apresentação do antropólogo Raul Lody, com dezenas
+											de receitas organizadas em ordem alfabética.
+										</p>
+
+										<p class="mb-3">O livro “O cozinheiro nacional” veio alguns anos mais tarde. Supõe-se que seja de 1890 e seu
+											autor não ficou registrado. Neste livro, existe um aspecto bastante inovador: uma tabela de produtos
+											estrangeiros e suas possíveis substituições nas receitas brasileiras, valorizando nossos ingredientes e
+											emancipando a culinária brasileira. Alguns exemplos: alcachofra por palmito, berinjela por jiló, castanha
+											portuguesa por pinhões, amêndoas e nozes por amendoim e castanha-do-pará.
+										</p>
+
+										<p class="mb-0">O livro também contém receitas exóticas de preparações curiosas e estranhas ao paladar
+											contemporâneo, mas que faziam parte do cotidiano dos nativos e primeiros colonizadores como tanajuras
+											fervidas e fritas em banha e sal, tamanduá assado, cobra cozida e cotia frita com mandioca (FREIXA; CHAVES,
+											2012).
+										</p>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<!-- Atividade discursiva 03 -->
+		<div data-id="1" id="exercicio_1">
+			<div class="container-fluid atividades mdc-bg-light-blue-50 mt-3 py-5">
+				<div class="container ">
+					<div class="row">
+						<div class="col-12">
+							<h1 id="topico-03">Atividade</h1>
+							<p class="atividade-pergunta">1. A história brasileira pode ser dividida em períodos históricos. O Brasil
+								colonial apresentava características marcantes nos seus aspectos históricos, sociais e políticos. Descreva os
+								fatores que levaram à consolidação da gastronomia brasileira a partir do século XVII.
+							</p>
+
+							<div class="form-group"> <textarea class="form-control" id="txtAreaDiscursiva" rows="3"></textarea></div>
+
+							<button class="btn btn-primary btn-lg mx-auto" data-placement="top" role="button" onclick="exerDiscursiva(this);" id="btnDiscursiva" data-trigger="focus" data-toggle="popover" data-content="Digite a sua resposta." name="btn">Gabarito
+								comentado</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--FEEDBACK-->
+			<div class="collapse" id="feedback-Discursiva">
+				<div class="container-fluid atividade-discursiva-feedback py-5">
+					<div class="container ">
+						<div class="row">
+							<div class="col-12 ">
+								<p class="texto-feedback_padrao">Gabarito comentado</p>
+								<p class="texto-feedback">Um dos fatores foi a implementação dos engenhos para produção de cana de açúcar no
+									Nordeste. Outro aspecto determinante para esta consolidação foi a chegada das famílias portuguesas que para cá
+									vieram com o objetivo de se estabelecerem e constituírem uma sociedade. A presença do núcleo familiar
+									organizado, sob a administração da mulher portuguesa foi fundamental para esta consolidação.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<!-- BLOCO TEXTO -->
+		<div class="container mt-5" id="topico-04">
+			<div class="row">
+				<div id="" class="col-12">
+					<h1 class="titulo mb-2">O ouro verde</h1>
+				</div>
+			</div>
+		</div>
+		<!-- FIM BLOCO DE TEXTO -->
+
+
+
+		<!-- Recurso Imagem Full -->
+		<div class="container-fluid px-0 my-5 position-relative recursoImgFull">
+			<div class="container legenda-imgFull position-absolute pt-2 pb-1 px-3 d- d-md-block">
+				<div class="d-inline-flex">
+					<div class="align-self-center mr-2"><i class="material-icons"></i></div>
+					<div class="align-self-center"><span class="">Fonte: Por bonga1965 / Shutterstock.</span></div>
+				</div>
+			</div>
+			<img src="./aula2_files/img06.jpg" alt="">
+		</div>
+
+
+
+		<!-- BLOCO TEXTO -->
+		<div class="container mt-5">
+			<div class="row">
+				<div id="" class="col-12">
+
+					<p>Com a escassez do ouro e a concorrência do açúcar produzido nas Antilhas, surge um novo produto para sustentar
+						a economia brasileira: o café. Ficou conhecido como ‘ouro verde’ e foi o produto que proporcionou as bases para o
+						desenvolvimento indústria do estado de São Paulo.
+					</p>
+
+					<p>Chegou oficialmente ao Brasil em 1727 por meio de um oficial português, o sargento-mor Francisco de Mello
+						Palheta. Foi inicialmente cultivado no Pará, passando ao Rio de Janeiro em 1776, mais de meio século depois. O
+						negócio era muito rentável por conta do crescimento do consumo da bebida na Europa e nos Estados Unidos.
+					</p>
+
+				</div>
+			</div>
+		</div>
+		<!-- FIM BLOCO DE TEXTO -->
+
+
+
+		<!-- Recurso Imagem Full -->
+		<div class="container-fluid px-0 my-3 position-relative recursoImgFull">
+			<div class="container legenda-imgFull position-absolute pt-2 pb-1 px-3 d- d-md-block">
+				<div class="d-inline-flex">
+					<div class="align-self-center mr-2"><i class="material-icons"></i></div>
+					<div class="align-self-center"><span class="">Fonte: Por phive / Shutterstock).</span></div>
+				</div>
+			</div>
+			<img src="./aula2_files/img07.jpg" alt="">
+		</div>
+
+
+
+		<!-- BLOCO TEXTO -->
+		<div class="container mt-5">
+			<div class="row">
+				<div id="" class="col-12">
+
+					<p>Neste mesmo período que são construídas as estradas de ferro, que integravam as regiões cafeeiras ao Porto de
+						Santos, onde se localizava a Bolsa do Café, local de negociação dos preços – hoje transformada em museu. A
+						população também passou a viajar em direção à capital paulista, que já se estabelecia como centro de cultura,
+						local de negócios, mas também para apreciar as novidades gastronômicas dos restaurantes e confeitarias.
+					</p>
+
+					<p>Apesar da influência francesa, nas fazendas de café prevalecia a simplicidade dos costumes rurais. No café da
+						manhã estavam presentes o bolo de fubá, o pão de queijo, a geleia de laranja e os sequilhos. No almoço, comia-se
+						frango ensopado, cuscuz e virado à paulista.
+					</p>
+
+				</div>
+			</div>
+		</div>
+		<!-- FIM BLOCO DE TEXTO -->
+
+
+
+
+
+		<!-- Recurso Imagem Full -->
+		<div class="container-fluid px-0 my-0 position-relative recursoImgFull">
+
+			<img src="./aula2_files/full1.png" alt="">
+		</div>
+
+
+
+		<div class="mdc-bg-lime-100">
+
+			<!-- BLOCO TEXTO -->
+			<div class="container mt-0">
+				<div class="row">
+					<div id="" class="col-12">
+						<h2 class="subtitulo">Arte na gastronomia</h2>
+					</div>
+				</div>
+			</div>
+			<!-- FIM BLOCO DE TEXTO -->
+
+			<!-- Recurso texto com imagem a direita-->
+			<div class="container-fluid py-5">
+				<div class="container">
+					<div class="row align-items-start">
+						<div class="col-12 col-sm-6 col-lg-6 mt-5" style="font-size:20px">
+							<p>O artista plástico Paulo Alexandrino Borges (1856-1942) retratou muito bem a sociedade dos barões do café em
+								seus quadros como “Cozinha na roça”, hoje pertencente ao acervo da Pinacoteca do Estado de São Paulo.
+							</p>
+
+						</div>
+						<div class="col-12 col-sm-6 col-lg-6" aria-hidden="true">
+							<div class="row">
+								<div class="col-12 order-12">
+									<div class="legenda mt-2">
+										<div>
+											<i class="material-icons"></i>
+											<span>Quadro “Cozinha na roça”, de Paulo Alexandrino Borges.| Fonte: Adaptado / Shutterstock.</span>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 order-1 ">
+									<img src="./aula2_files/quadro1.png" alt="" class="img-fluid ">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+			<!-- Recurso texto com imagem a esquerda-->
+			<div class="container-fluid py-5">
+				<div class="container">
+					<div class="row align-items-start">
+						<div class="col-12 col-sm-6" aria-hidden="true">
+							<div class="row aos-init" data-aos="fade-right" data-aos-duration="4000">
+								<div class="col-12 order-12">
+									<div class="legenda mt-2">
+										<div class=""><i class="material-icons"></i>
+											<span>Quadro “Cena da fazenda” de Tarsila do Amaral. | Fonte: Adaptado / Shutterstock.</span>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 order-1 ">
+									<img src="./aula2_files/quadro2.png" alt="" class="img-fluid ">
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-sm-6 mt-5" style="font-size:20px">
+							<p>A comida na fazenda da família de <a href="" class="link-modal mdc-bg-blue-100 mdc-text-blue-900 p-1 " data-toggle="modal" data-target="#modal-conteudo-02">Tarsila do Amaral <sup>2</sup></a> era o trivial feijão
+								com arroz, batata, bife ou lombo de
+								porco, codorna, bem como chuchu e palmito. Sua sobremesa favorita era doce de marmelo, servido quente com
+								pedacinhos de queijo.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+
+
+
+		<!-- Recurso Imagem Full -->
+		<div class="container-fluid px-0 my-0 position-relative recursoImgFull">
+
+			<img src="./aula2_files/full2.png" alt="">
+		</div>
+
+
+
+
+
+		<!-- BLOCO TEXTO -->
+		<div class="container mt-5" id="topico-04">
+			<div class="row">
+				<div id="" class="col-12">
+					<h1 class="titulo mb-2">Chegada dos imigrantes</h1>
+					<!-- <h2 class='subtitulo'>INSERIR SUBTÍTULO AQUI</h2> -->
+					<p>O objetivo principal da chegada dos imigrantes na região Sudeste do Brasil era trabalhar na lavoura do café, já
+						a imigração para a região Sul do país tinha o objetivo de ocupar áreas pouco povoadas do território nacional.
+					</p>
+
+					<p>Agora, veremos um resumo histórico sobre a chegada dos imigrantes.</p>
+				</div>
+			</div>
+		</div>
+		<!-- FIM BLOCO DE TEXTO -->
+
+
+
+
+
+		<!-- Recurso Navegue nas datas -->
+		<div class="container-fluid py-3 my-3">
+			<div class="container my-5 recurso-pills">
+				<div class="row justify-content-center ">
+
+
+					<ul class="nav nav-pills d-print-none justify-content-center" id="pills-tab" role="tablist">
+						<li class="nav-item m-1">
+							<a class="nav-link mdc-bg-light-blue-900 active" id="pills-tab-01" data-toggle="pill" href="#pills-01" role="tab" aria-controls="pills-01" aria-selected="true"><i class="far fa-calendar-alt"></i> 1744</a>
+						</li>
+						<li class="nav-item m-1">
+							<a class="nav-link mdc-bg-light-blue-900" id="pills-tab-02" data-toggle="pill" href="#pills-02" role="tab" aria-controls="pills-02" aria-selected="false"><i class="far fa-calendar-alt"></i> 1824</a>
+						</li>
+						<li class="nav-item m-1">
+							<a class="nav-link mdc-bg-light-blue-900" id="pills-tab-03" data-toggle="pill" href="#pills-03" role="tab" aria-controls="pills-03" aria-selected="false"><i class="far fa-calendar-alt"></i> 1850</a>
+						</li>
+
+						<li class="nav-item m-1">
+							<a class="nav-link mdc-bg-light-blue-900" id="pills-tab-04" data-toggle="pill" href="#pills-04" role="tab" aria-controls="pills-04" aria-selected="false"><i class="far fa-calendar-alt"></i> 1875</a>
+						</li>
+
+					</ul>
+
+					<div class="col-12 text-center mdc-text-grey-900 mb-5">
+						<p class="d-print-none mb-0">Navegue nas datas acima.</p>
+					</div>
+
+					<div class="tab-content d-flex flex-row text-center mdc-bg-light-blue-100 w-100 my-3" id="pills-tabContent">
+						<div class="tab-pane fade show active" id="pills-01" role="tabpanel" aria-labelledby="pills-tab-01">
+							<p>
+								</p><h2>1744</h2>
+							<p></p>
+							<p class="p-3">As primeiras famílias de imigrantes que aportaram no Sul, a partir de 1744, eram constituídas de
+								portugueses
+								das ilhas de Açores e da Madeira, que vieram para o Brasil por determinação da Coroa Portuguesa.
+							</p>
+							<p class="p-3">O barreado ou carne barreada é um prato típico do litoral paranaense, sendo o mais tradicional do
+								estado. A
+								receita respeita um ritual de trezentos anos e, segundo alguns historiadores, teria sido trazida pelos
+								imigrantes açorianos no século XVIII. O nome vem da expressão “barrear” a panela, com um pirão de farinha de
+								mandioca, para evitar que o vapor escape e o cozido seque depressa.
+							</p>
+						</div>
+
+						<div class="tab-pane fade" id="pills-02" role="tabpanel" aria-labelledby="pills-tab-02">
+							<p>
+								</p><h2>1824</h2>
+							<p></p>
+							<p class="p-3">As primeiras famílias não portuguesas foram de imigrantes alemães que chegaram ao Sul do país em
+								1824 e
+								construíram a cidade de São Leopoldo.</p>
+						</div>
+
+						<div class="tab-pane fade" id="pills-03" role="tabpanel" aria-labelledby="pills-tab-03">
+							<p>
+								</p><h2>1850</h2>
+							<p></p>
+							<p class="p-3">Em 1850, alemães chegaram em Santa Catarina, com Herman Blumenau, que fundou a cidade que leva
+								seu sobrenome.
+								Os alemães trouxeram seus costumes e receitas como carnes defumadas, salsichão, chucrute, pão preto, bolo
+								floresta negra. Foram eles também que trouxeram os processos de fermentação e produção da cerveja, adaptada ao
+								paladar brasileiro e servida de uma forma mais tropical, estupidamente gelada, diferente do padrão europeu.
+							</p>
+						</div>
+
+						<div class="tab-pane fade" id="pills-04" role="tabpanel" aria-labelledby="pills-tab-04">
+							<p>
+								</p><h2>1875</h2>
+							<p></p>
+							<p class="p-3">Nas terras de Garibaldi, Caxias do Sul e Bento Gonçalves, os imigrantes italianos começaram a
+								plantar uvas e
+								produzir vinhos a partir de 1875. Em toda zona rural da região Sul do Brasil, é possível degustar os pratos que
+								incluem as preparações citadas, além do vinho, da <em>grappa</em> (aguardente de uva) e do café colonial
+								preparado pelas
+								famílias descendentes de alemães e italianos.
+							</p>
+							<p class="p-3">Muitos italianos foram para <strong>São Paulo</strong>, onde se fixaram em busca de oportunidades
+								urbanas e
+								abriram as
+								<a href="" class="link-modal mdc-bg-blue-50 mdc-text-blue-900 p-1 " data-toggle="modal" data-target="#modal-conteudo-03">cantinas
+									<sup>3</sup></a>. No início do século XX, as cantinas viraram pequenos restaurantes, decorados com os objetos
+								pendurados como nos armazéns, onde produziam e comercializavam massas, pão, pizzas, polenta de milho e molhos
+								característicos da cozinha italiana.
+							</p>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+<!-- VÍDEO VIMEO -->
+<div class="container recursoVideo my-4">
+	<div class="row">
+		<div class="col-12 d-print-none">
+			<div class="embed-responsive embed-responsive-16by9">
+	            <video controls>
+                     <source src="./aula2_files/1241941370.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- VÍDEO VIMEO -->		
+
+
+
+
+
+
+		<!-- Atividade discursiva 03 -->
+		<div data-id="2" id="exercicio_2">
+			<div class="container-fluid atividades mdc-bg-light-blue-50 mt-3 py-5">
+				<div class="container ">
+					<div class="row">
+						<div class="col-12">
+							<h1 id="topico-05">Atividade</h1>
+							<p class="atividade-pergunta">2. A região Sul teve sua ocupação determinada por dois grandes grupos de
+								imigrantes não portugueses. Comente as influências e contribuições gastronômica destes grupos imigrantes que
+								povoaram a região.
+							</p>
+
+							<div class="form-group"> <textarea class="form-control" id="txtAreaDiscursiva" rows="3"></textarea></div>
+
+							<button class="btn btn-primary btn-lg mx-auto" data-placement="top" role="button" onclick="exerDiscursiva(this);" id="btnDiscursiva" data-trigger="focus" data-toggle="popover" data-content="Digite a sua resposta." name="btn">Gabarito
+								comentado</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--FEEDBACK-->
+			<div class="collapse" id="feedback-Discursiva">
+				<div class="container-fluid atividade-discursiva-feedback py-5">
+					<div class="container ">
+						<div class="row">
+							<div class="col-12 ">
+								<p class="texto-feedback_padrao">Gabarito comentado</p>
+
+								<p class="texto-feedback">Os alemães trouxeram seus costumes e receitas como carnes defumadas, salsichão,
+									chucrute, pão preto, bolo floresta negra. Foram eles também que trouxeram os processos de fermentação e
+									produção da cerveja, adaptada ao paladar brasileiro tanto no sabor quanto na temperatura de servir.
+								</p>
+
+								<p class="texto-feedback">Os imigrantes italianos plantaram uvas e produziram vinhos em toda zona rural da
+									região Sul do Brasil, além da grappa e do café. Muitos italianos foram para São Paulo, onde se fixaram em
+									busca de oportunidades urbanas e abriram as cantinas, ambientes familiares onde produziam e comercializavam
+									massas, pães, pizzas, polenta de milho e molhos característicos da cozinha italiana.
+								</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+		<!-- BLOCO TEXTO -->
+		<div class="container mt-5" id="topico-06">
+			<div class="row">
+				<div id="" class="col-12">
+					<h1 class="titulo mb-2">Região Sudeste</h1>
+				</div>
+			</div>
+		</div>
+		<!-- FIM BLOCO DE TEXTO -->
+
+
+
+		<!-- Recurso texto com imagem a direita-->
+		<div class="container-fluid py-5">
+			<div class="container">
+				<div class="row align-items-start">
+					<div class="col-12 col-sm-6 col-lg-6">
+						<p>Na virada do século XX, após a proclamação da República, o setor industrial começou a se desenvolver com
+							produtos que exigiam tecnologia pouco sofisticada, como o ramo têxtil e produtos de alimentação (farinhas, óleos
+							comestíveis, biscoitos, massas e molho de tomate).
+						</p>
+
+						<p>A dinâmica da industrialização mudou o modo de vida das pessoas, com horários determinados aos trabalhadores,
+							surgindo estabelecimentos que serviam o prato do dia ou prato executivo preparados com as receitas caseiras
+							preferidas dos fregueses. Para agradar a todos, os botecos e restaurantes passaram a servir um prato diferente
+							cada dia.
+						</p>
+
+					</div>
+					<div class="col-12 col-sm-6 col-lg-6" aria-hidden="true">
+						<div class="row">
+							<div class="col-12 order-12">
+								<div class="legenda mt-2">
+									<div>
+										<i class="material-icons"></i>
+										<span>Fonte: Por Robyn Mackenzie / Shutterstock.</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 order-1 ">
+								<img src="./aula2_files/img08.jpg" alt="" class="img-fluid ">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<!-- Recurso texto com imagem a direita-->
+		<div class="container-fluid py-5">
+			<div class="container">
+				<div class="row align-items-start">
+					<div class="col-12 col-sm-6 col-lg-6">
+						<h2>São Paulo</h2>
+						<p>Os restaurantes proliferaram em São Paulo durante a República, com destaque para a cozinha italiana. Freixa e
+							Chaves (2012) descrevem uma lista de casas de restauração, como a Brasserie Paulista, de propriedade de Vittorio
+							Fasano, aberta em 1903, com cozinha da região Norte da Itália e a cantina Capuano, de 1907, com cozinha típica
+							do Sul da Itália.
+						</p>
+
+						<p>Em 1922, na semana de arte modera em São Paulo, é inaugurada a lanchonete Ponto Chic que servia o famoso
+							<a href="" class="link-modal mdc-bg-blue-50 mdc-text-blue-900 p-1 " data-toggle="modal" data-target="#modal-conteudo-04">Bauru
+								<sup>4</sup></a>.
+						</p>
+
+						<p>Na primeira metade do século XIX, a cozinha francesa já estava presente nos primeiros hotéis, mas só um século
+							depois surgem os primeiros restaurantes franceses, a exemplo do Freddy, um bistrô parisiense da década de 1930 e
+							depois, em 1954, o Marcel e o La Casserole, que funcionam até dos dias de hoje.
+						</p>
+
+						<p>São Paulo oferece restaurantes com comidas de quase todos os lugares do mundo. Outro grupo étnico presente é o
+							oriental, com destaque para os <a href="" class="link-modal mdc-bg-blue-50 mdc-text-blue-900 p-1 " data-toggle="modal" data-target="#modal-conteudo-05">japoneses <sup>5</sup></a>.
+						</p>
+
+					</div>
+					<div class="col-12 col-sm-6 col-lg-6" aria-hidden="true">
+						<div class="row">
+							<div class="col-12 order-12">
+								<div class="legenda mt-2">
+									<div>
+										<i class="material-icons"></i>
+										<span>Fonte: Por boreala (Adaptado) / Shutterstock.</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 order-1 ">
+								<img src="./aula2_files/img09.jpg" alt="" class="img-fluid ">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<!-- Recurso texto com imagem a esquerda-->
+		<div class="container-fluid py-5">
+			<div class="container">
+				<div class="row align-items-start">
+					<div class="col-12 col-sm-6" aria-hidden="true">
+						<div class="row aos-init" data-aos="fade-right" data-aos-duration="4000">
+							<div class="col-12 order-12">
+								<div class="legenda mt-2">
+									<div class=""><i class="material-icons"></i>
+										<span>Fonte: Por boreala (Adaptado) / Shutterstock.</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 order-1 ">
+								<img src="./aula2_files/img10.jpg" alt="" class="img-fluid ">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-6">
+						<h2>Rio de Janeiro</h2>
+						<p>O lugar considerado mais elegante do Brasil era o Rio de Janeiro. O <a href="" class="link-modal mdc-bg-blue-50 mdc-text-blue-900 p-1 " data-toggle="modal" data-target="#modal-conteudo-06">restaurante Bife de Ouro <sup>6</sup></a>, hoje Cipriani,
+							no Hotel Copacabana Palace, inaugurado em 1923, assim chamado por Assis Chateaubriand por conta do preço cobrado
+							pelo filé.
+						</p>
+
+						<p>Por ter sido capital da Colônia por mais de dois séculos e depois capital do Império, o Rio de Janeiro recebeu
+							muita influência da culinária portuguesa.
+						</p>
+
+						<p>Algumas especialidades cariocas são pratos à base de bacalhau, a começar pelo bolinho, passando para os pratos
+							principais, como o tradicional Bacalhau à Gomes de Sá, à Lagareiro e à Zé do Pipo. Existem pratos históricos
+							como filé à Osvaldo Aranha, criado pelo próprio político que costumava pedir o filé alto, mal passado, coberto
+							por alho frito e servido com batatas e arroz.
+						</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<!-- Recurso texto com imagem a direita-->
+		<div class="container-fluid py-5">
+			<div class="container">
+				<div class="row align-items-start">
+					<div class="col-12 col-sm-6 col-lg-6">
+						<h2>Minas Gerais</h2>
+						<p>Terra da fartura e de pratos como feijão tropeiro, bambá de couve, frango com quiabo, vaca atolada, leitão à
+							pururuca e tutu à mineira. Sobremesas clássicas como romeu e julieta (goiabada cascão com queijo de minas) e
+							ambrosia (doce com leite e gemas).
+						</p>
+
+						<p>Diferentemente do restante das regiões brasileiras em que existem dois cardápios: o simples para o cotidiano e
+							o trabalhoso, composto de pratos típicos para os dias especiais, em Minas, não há diferença, as preparações
+							típicas são a comida cotidiana do mineiro e o cardápio para os dias de festa.
+						</p>
+
+					</div>
+					<div class="col-12 col-sm-6 col-lg-6" aria-hidden="true">
+						<div class="row">
+							<div class="col-12 order-12">
+								<div class="legenda mt-2">
+									<div>
+										<i class="material-icons"></i>
+										<span>Fonte: Por boreala (Adaptado) / Shutterstock.</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 order-1 ">
+								<img src="./aula2_files/img11.jpg" alt="" class="img-fluid ">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<!-- Box Saiba mais -->
+		<div class="container-fluid my-3 py-3">
+			<div class="container box-destaque">
+				<div class="row mdc-bg-light-blue-900 mdc-text-grey-50 box-destaque-header">
+					<div class="col-3 col-lg-1 icone_box_destaque d-print-none"><i class="fa fa-plus-circle  fa-1x mt-2" aria-hidden="true"></i></div>
+					<div class="col-9 col-lg-11 my-auto">
+						<h4 class="mb-0">Saiba mais</h4>
+					</div>
+				</div>
+				<div class="row mdc-bg-light-blue-100 py-3 box-destaque-body">
+					<div class="col-lg-1 d-print-none"></div>
+					<div class="col-12 col-lg-10">
+						<p class="mb-3">Cavalcanti (2007, p. 353) relata que diversos escritores são da opinião de que o povo mineiro não
+							se preocupa com a comida e que prefere que ela seja a mais simples possível.
+						</p>
+
+						<p class="mb-3">Existe um ditado que diz que “o mineiro come quieto”. Talvez pela própria natureza de sua
+							população ter se constituído inicialmente de desbravadores, bandeirantes, tropeiros e mineiros, cautelosos em
+							relação aos perigos e riscos que tinham que enfrentar.
+						</p>
+
+						<p class="mb-3">Há relatos de que os chefes de família nas fazendas faziam distinção de gêneros em festas e até
+							mesmo nas refeições cotidianas, onde o pai da família, filhos e visitantes comiam primeiro.
+						</p>
+
+						<p class="mb-0">Existem muitas histórias quanto aos hábitos de reclusão e estranheza de receber visitas, mas uma
+							coisa é certa os mineiros são conservadores e preservadores de tradições. Não se pode negar que as preparações
+							são gordurosas e de que eles são bons apreciadores da comida e da mesa, opulenta e sensual, pela sua própria
+							natureza à base de carne e banha de porco (CAVALCANTI, 2007, p. 355).
+						</p>
+					</div>
+					<div class=" col-lg-1"></div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- BLOCO TEXTO -->
+		<div class="container mt-5" id="topico-07">
+			<div class="row">
+				<div id="" class="col-12">
+					<h1 class="titulo mb-2">Centro-Oeste</h1>
+					<!-- <h2 class='subtitulo'>INSERIR SUBTÍTULO AQUI</h2> -->
+					<p>O Centro-Oeste é a área de mais recente ocupação do país, com pouco mais de cinquenta anos, ainda em
+						desenvolvimento. Tem sua identidade expressa através da cozinha do cerrado (Goiás e Tocantins) e a comida do
+						Pantanal (Mato Grosso e Mato Grosso do Sul).
+					</p>
+
+					<p>Nesses dois estados, podemos observar prato de influência paraguaia e boliviana, como:</p>
+
+				</div>
+			</div>
+		</div>
+		<!-- FIM BLOCO DE TEXTO -->
+
+
+
+		<!-- Recurso steps 4 colunas -->
+		<div class="container-fluid my-3 py-3">
+			<div class="container recursoSteps">
+
+				<div class="row text-center justify-content-center">
+
+					<div class="col-12 col-sm-6 col-lg-4">
+						<div class="steps ">
+							<div><img src="./aula2_files/step1.jpg" alt="" class="img-fluid "></div>
+							<h3>Sopa paraguaia</h3>
+							<p>Bolo salgado de milho, queijo e cebola.</p>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4">
+						<div class="steps ">
+							<div><img src="./aula2_files/step2.jpg" alt="" class="img-fluid "></div>
+							<h3>Saltenhas</h3>
+							<p>Empanados recheados de carne.</p>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-6 col-lg-4">
+						<div class="steps ">
+							<div><img src="./aula2_files/step3.jpg" alt="" class="img-fluid "></div>
+							<h3>Chipa</h3>
+							<p>Semelhante ao pão de queijo mineiro, mas em formato de ferradura.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- BLOCO TEXTO -->
+		<div class="container mt-3">
+			<div class="row">
+				<div id="" class="col-12">
+					<p>Os moradores da região consomem muita carne por influência do desenvolvimento da pecuária dos produtores
+						gaúchos, que foram ocupar esta nova fronteira.
+					</p>
+
+					<p>A cozinha do cerrado tem influência do sertão nordestino, por conta dos candangos que foram construir Brasília.
+						Consomem buchada de bode, caldo de mocotó, mas também construíram identidade com as pamonhas de queijo e uso das
+						frutas do cerrado como na receita do arroz de Pequi.
+					</p>
+
+				</div>
+			</div>
+		</div>
+		<!-- FIM BLOCO DE TEXTO -->
+
+
+
+		<!-- BLOCO TEXTO -->
+		<div class="container mt-5" id="topico-08">
+			<div class="row">
+				<div id="" class="col-12">
+					<h1 class="titulo mb-2">Norte</h1>
+					<!-- <h2 class='subtitulo'>INSERIR SUBTÍTULO AQUI</h2> -->
+					<p>Região que mais preserva a origem indígena nos insumos e nas técnicas de gastronomia, que estudaremos com mais
+						profundidade nas próximas aulas.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- FIM BLOCO DE TEXTO -->
+
+
+
+
+		<!-- BLOCO TEXTO -->
+		<div class="container mt-5" id="topico-09">
+			<div class="row">
+				<div id="" class="col-12">
+					<h1 class="titulo mb-2">Nordeste</h1>
+					<!-- <h2 class='subtitulo'>INSERIR SUBTÍTULO AQUI</h2> -->
+					<p>Apresenta grande diversidade com a cozinha do Recôncavo Baiano, do litoral e do Sertão. Também merecem destaque
+						a doçaria pernambucana e seus festivais gastronômicos do interior do estado e a identidade gastronômica dos
+						demais estados nordestinos. Todas elas serão estudadas com mais detalhes nas aulas à frente.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- FIM BLOCO DE TEXTO -->
+
+
+
+
+		<!-- Atividade discursiva 03 -->
+		<div data-id="3" id="exercicio_3">
+			<div class="container-fluid atividades mdc-bg-light-blue-50 mt-3 py-5">
+				<div class="container ">
+					<div class="row">
+						<div class="col-12">
+							<h1 id="topico-10">Atividade</h1>
+							<p class="atividade-pergunta">3. O Brasil é geográfica e politicamente dividido em cinco grandes regiões. A
+								gastronomia está relacionada a aspectos históricos e geográficos. Comente como aconteceu o desenvolvimento
+								gastronômico da região Sudeste, as características da gastronomia mineira e da paulista, citando preparações de
+								cada uma delas.
+							</p>
+
+							<div class="form-group"> <textarea class="form-control" id="txtAreaDiscursiva" rows="3"></textarea></div>
+
+							<button class="btn btn-primary btn-lg mx-auto" data-placement="top" role="button" onclick="exerDiscursiva(this);" id="btnDiscursiva" data-trigger="focus" data-toggle="popover" data-content="Digite a sua resposta." name="btn">Gabarito
+								comentado</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--FEEDBACK-->
+			<div class="collapse" id="feedback-Discursiva">
+				<div class="container-fluid atividade-discursiva-feedback py-5">
+					<div class="container ">
+						<div class="row">
+							<div class="col-12 ">
+								<p class="texto-feedback_padrao">Gabarito comentado</p>
+
+								<p class="texto-feedback">O desenvolvimento gastronômico da região Sudeste, em especial dos estados de São
+									Paulo e Minas Gerais, aconteceu por conta de alguns fatores. No primeiro momento, os bandeirantes faziam o
+									plantio de roças de milho, banana, mandioca e feijão, disseminando estas culturas e garantindo a sobrevivência
+									na volta das marchas.
+								</p>
+
+								<p class="texto-feedback">Durante as viagens, coletavam frutas como jabuticaba, abacaxi, pitanga, araçá,
+									araticum, entre outras, conhecendo e se adaptando aos alimentos nativos, incluindo folhas e talos como “peixe
+									da horta” e “ora-pro-nóbis”, que ainda fazem parte do cardápio de Minas Gerais.
+								</p>
+
+								<p class="texto-feedback">Em Minas Gerais, a atividade dos garimpeiros com preparações à base de carne seca e
+									farinha de mandioca, a identificação e coleta de plantas e frutas comestíveis. Minas Gerais é uma região de
+									comida simples, baseada na carne e na banha de porco, onde o cardápio cotidiano apresenta preparações típicas,
+									como feijão tropeiro, bambá de couve, frango com quiabo, vaca atolada, leitão à pururuca e tutu à mineira.
+									Sobremesas clássicas como romeu e julieta (goiabada cascão com queijo de minas) e ambrosia (doce com leite e
+									gemas).
+								</p>
+
+								<p class="texto-feedback">Em São Paulo, a cultura do café foi o grande agente impulsionador do desenvolvimento
+									da economia, cultura e gastronomia paulista. Nas fazendas de café prevalecia a simplicidade dos costumes
+									rurais. Associado ao café, a construção das estradas de ferro que ligavam o interior à capital e ao porto de
+									Santos. No café da manhã estavam presentes o bolo de fubá, o pão de queijo, a geleia de laranja e os
+									sequilhos. No almoço, comia-se frango ensopado, cuscuz e virado à paulista.
+								</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+	</section>
+	<!-- Fim conteudo aula -->
+
+	<div id="gotoTop" title="Ir ao topo" style="display: none;"><i class="fas fa-angle-up"></i></div>
+
+
+
+	<!-- Titulo para impressão caso não tenha, favor remover -->
+	<div class="container-fluid">
+		<div class="container d-none d-print-block titulo-notas">
+			<div class="row">
+				<div class="col-12">
+					<h3>Notas</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Contéudo MODAL  -->
+	<div class="modal animated slideInRight modal-conteudo" id="modal-conteudo-01" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content ">
+				<div class="modal-header">
+					<h3 id="exampleModalLabel">Administração da mulher portuguesa <sup>1</sup></h3><button type="button" class="close close-rodape" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				</div>
+				<hr class="hr-titulo">
+				<div class="modal-body">
+					<p>Embora esta mulher, na maioria das vezes, fosse analfabeta, possuía o conhecimento necessário para fazer
+						provisões, administrar estoques e o funcionamento da cozinha, assim como deliberar sobre as necessidades da casa
+						e da família.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="modal animated slideInRight modal-conteudo" id="modal-conteudo-02" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content ">
+				<div class="modal-header">
+					<h3 id="exampleModalLabel">Tarsila do Amaral <sup>2</sup></h3><button type="button" class="close close-rodape" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				</div>
+				<hr class="hr-titulo">
+				<div class="modal-body">
+					<p>Nascida no interior de São Paulo, em Capivari. A pintora é uma das principais artistas do modernismo
+						brasileiro.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="modal animated slideInRight modal-conteudo" id="modal-conteudo-03" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content ">
+				<div class="modal-header">
+					<h3 id="exampleModalLabel">Cantinas <sup>3</sup></h3><button type="button" class="close close-rodape" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				</div>
+				<hr class="hr-titulo">
+				<div class="modal-body">
+					<p>Ambientes familiares onde também funcionavam armazéns.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="modal animated slideInRight modal-conteudo" id="modal-conteudo-04" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content ">
+				<div class="modal-header">
+					<h3 id="exampleModalLabel">Bauru <sup>4</sup></h3><button type="button" class="close close-rodape" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				</div>
+				<hr class="hr-titulo">
+				<div class="modal-body">
+					<p>Sanduíche cuja receita original era com pão francês (sal), queijo derretido, fatias de rosbife e tomate, assim
+						batizado em homenagem ao seu inventor, o radialista Casimiro Pinto Neto, apelidado de Bauru, sua cidade natal.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="modal animated slideInRight modal-conteudo" id="modal-conteudo-05" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content ">
+				<div class="modal-header">
+					<h3 id="exampleModalLabel">Japoneses <sup>5</sup></h3><button type="button" class="close close-rodape" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				</div>
+				<hr class="hr-titulo">
+				<div class="modal-body">
+					<p>Vieram, em grande parte, para trabalhar em São Paulo. Logo após sua chegada, sofreram bastante com a comida
+						brasileira. Tornaram-se grandes cultivadores de hortaliças e produtos que não faziam parte dos hábitos
+						alimentares nacionais.
+					</p>
+
+					<p>Quem desejar conhecer um pouco da cultura e da comida japonesa, sem sair do Brasil, deve visitar o bairro da
+						Liberdade em São Paulo, que vai sentir-se no Japão.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="modal animated slideInRight modal-conteudo" id="modal-conteudo-06" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content ">
+				<div class="modal-header">
+					<h3 id="exampleModalLabel">Restaurante Bife de Ouro <sup>6</sup></h3><button type="button" class="close close-rodape" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				</div>
+				<hr class="hr-titulo">
+				<div class="modal-body">
+					<p>Para montagem do restaurante, o proprietário Octávio Guinle trouxe de Paris uma equipe formada pelo famoso chef
+						francês Auguste Escoffier.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contéudo MODAL  -->
+
+
+
+
+
+
+
+
+
+
+	<!-- Contéudo Referencias  -->
+	<div class="modal fade modal-rodape" id="modalReferencias" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content ">
+				<div class="modal-header">
+					<h3 id="exampleModalLabel">Referências</h3><button type="button" class="close close-rodape" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				</div>
+				<div class="modal-body">
+					<hr class="hr-titulo">
+
+
+					<p>CAVALCANTI, P. <strong>A pátria das panelas.</strong> São Paulo: Senac, 2007.</p>
+
+					<p>FREIXA, D.; CHAVES, G. <strong>Gastronomia no Brasil e no mundo.</strong> São Paulo: Editora Senac, 2012.</p>
+
+				</div>
+
+
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- Contéudo Próximos passos -->
+	<div class="modal fade modal-rodape" id="modalProximopassos" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content ">
+				<div class="modal-header">
+					<h3 id="exampleModalLabel">Próxima aula</h3><button type="button" class="close close-rodape" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				</div>
+				<div class="modal-body">
+					<hr class="hr-titulo">
+
+					<!-- Conteúdo -->
+					<ul>
+						<li>Características da cozinha da região Norte;</li>
+
+						<li>Insumos e preparações da região Norte;</li>
+
+						<li>Evolução histórica da cozinha da região Norte.</li>
+					</ul>
+					<!-- Conteúdo -->
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Contéudo Saiba mais -->
+	<div class="modal fade modal-rodape" id="modalExploremais" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content ">
+				<div class="modal-header">
+					<h3 id="exampleModalLabel">Explore mais</h3><button type="button" class="close close-rodape" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				</div>
+				<div class="modal-body">
+					<hr class="hr-titulo">
+
+					<p>Para entender melhor os assuntos estudados nesta aula, sugerimos a seguinte leitura clássica:</p>
+
+					<p>• LIMA, C. O. de. <strong>Cozinheiro imperial.</strong> Rio de Janeiro: Laemmert, 1887.</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- Contéudo Modal Acessibilidade -->
+	<div class="modal fade modal-rodape" id="modalAcessibilidade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content ">
+				<div class="modal-header">
+					<h3 id="exampleModalLabel">Acessibilidade</h3><button type="button" class="close close-rodape" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				</div>
+				<div class="modal-body">
+					<hr class="hr-titulo">
+
+					<!-- Contéudo -->
+					<p>A Estácio, sempre preocupada com a necessidade de levar seus serviços a um maior número de pessoas, mudou seu
+						site. Atenta às inovações de tecnologia e às principais tendências mundiais, está trazendo um site com recursos
+						de acessibilidade, seguindo as recomendações do WCAG (Web Content Accessibility Guidelines), do W3C (World Wide
+						Web Consortium), principal organização de padronização da World Wide Web, que desenvolve especificações técnicas
+						e orientações para o mercado.</p>
+					<p>Com isso, pessoas com deficiência visual, baixa visão, daltonismo e mobilidade reduzida podem navegar em nosso
+						site por meio de recursos que foram implementados para garantir este acesso, tais como alto contraste, aumento de
+						fonte, teclas de atalho e navegação por teclado.</p>
+					<p>Para aumentar a fonte, é só clicar no símbolo de A+ em nossa barra de acessibilidade. Caso queira voltar ao
+						tamanho de fonte original, é só clicar em A-.</p>
+					<p>Se for necessário, você também pode usar o zoom nativo do seu navegador, pressionando as teclas “Ctrl” e “+”
+						para aumentar todo o site e “Ctrl” e “-“ para diminuir. Para voltar ao padrão, pressione “Ctrl” e “0”.</p>
+					<p>Este site tem melhor acessibilidade quando acessado nas versões mais atualizadas do seu navegador web. Utilize
+						sempre a versão mais recente de seu software.</p>
+					<h3 class="my-3">Navegação por tabulação</h3>
+					<p>Use a tecla Tab para navegar por elementos que recebem ação do usuário no site, tais como links, botões, campos
+						de formulário e outros na ordem em que eles são apresentados na página, e Shift + Tab para retornar. Use as setas
+						direcionais para acessar as informações textuais.</p>
+					<h3 class="my-3">Sugestões de programas disponíveis para pessoas com deficiência</h3>
+					<ul class="list-unstyled">
+						<li>- Nitrous Voice Flux: controla o computador por voz. Gratuito;</li>
+						<li>- NVDA: software livre para ler tela – vários idiomas (Windows);</li>
+						<li>- YeoSoft Text: leitor de tela em inglês e português;</li>
+						<li>- Jaws for Windows: leitor de tela – vários idiomas;</li>
+						<li>- Virtual Vision: leitor de telas em português do Brasil;</li>
+						<li>- DOSVOX: sistema para deficientes visuais (Windows ou Linux).</li>
+					</ul>
+					<div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button></div>
+					<!-- Contéudo -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- Contéudo Modal Vídeo Lateral -->
+	<div class="modal fade" id="modalVideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+					<!-- 16:9 aspect ratio -->
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="./aula2_files/saved_resource(3).html" id="video" allowscriptaccess="always" data-savepage-key="0-3">></iframe>
+					</div>
+					<div class="mdc-bg-grey-900 mdc-text-grey-50 pl-1 pr-1 pt-1 box-legenda-videoModal">
+						<div class="legenda">
+							<div class=""><i class="material-icons mx-2">ondemand_video</i><span>Título do vídeo.</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+
+	<!-- Início rodapé/footer -->
+	<footer id="rodape">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-12 col-sm-4 col-lg-2 d-none d-sm-block">
+					<img src="./aula2_files/logos.png" alt="">
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="row justify-content-start">
+						<div class="creditos_texto">
+							<h3 class="ml-1">Créditos</h3>
+							<div class="m-1">
+								<span class="funcao">Redator:</span>
+								<span class="pessoa">Eduardo Passos</span>
+							</div>
+							<div class="m-1">
+								<span class="funcao">Designer Instrucional:</span>
+								<span class="pessoa">Maiara Machado</span>
+							</div>
+							<div class="m-1">
+								<span class="funcao">Web Designer:</span>
+								<span class="pessoa">Allan Gadelha</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6 d-print-none">
+					<div class="row justify-content-end text-center">
+						<div class="col-12 col-lg-4 my-3"><a href="" data-toggle="modal" data-target="#modalReferencias">
+								<h4 class="titulo_footer">Referências</h4>
+								<div class="box_footer"><i class="material-icons creditos_icone" aria-hidden="true">library_books</i></div>
+							</a></div>
+
+						<div class="col-12 col-lg-4 my-3"><a href="" data-toggle="modal" data-target="#modalProximopassos">
+								<h4 class="titulo_footer">Próxima aula</h4>
+								<div class="box_footer"><i class="material-icons creditos_icone" aria-hidden="true">queue_play_next</i></div>
+							</a></div>
+
+						<div class="col-12 col-lg-4 my-3"><a href="" data-toggle="modal" data-target="#modalExploremais">
+								<h4 class="titulo_footer ">Explore Mais</h4>
+								<div class="box_footer"><i class="material-icons creditos_icone" aria-hidden="true">library_add</i></div>
+							</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+<script type="text/javascript" src="./aula2_files/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="./aula2_files/popper.min.js"></script>
+<script type="text/javascript" src="./aula2_files/bootstrap.min.js"></script>
+<script type="text/javascript" src="./aula2_files/scorm12.js"></script>
+<script type="text/javascript" src="./aula2_files/aos.js"></script>
+<script type="text/javascript" src="./aula2_files/swiper.min.js"></script>
+<script type="text/javascript" src="./aula2_files/acessibilidade.js"></script>
+<script type="text/javascript" src="./aula2_files/config.js"></script>
+<script type="text/javascript" src="./aula2_files/atividade.js"></script>
+<script type="text/javascript" src="./aula2_files/jquery.event.move.js"></script>
+<script type="text/javascript" src="./aula2_files/jquery.twentytwenty.js"></script>
+
+<div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: MathJax_Size4, sans-serif;"></div></div></body></html>

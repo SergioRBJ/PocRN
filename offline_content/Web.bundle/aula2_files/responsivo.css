@@ -1,0 +1,261 @@
+@media screen and (max-height: 476px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 576px) {
+    .material_icon_2colunas {
+    font-size: 8em;
+    }
+    .rotate{
+        transform: rotate(90deg);
+    }
+    .apresentacao{
+        border-right:0;
+        border-bottom: 1px solid #e0e0e0;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    .telaApresentacao{border-bottom: none;}
+
+    .objetivos{padding: 0;}
+
+    .box-apresentacao-objetivos{padding: 0;}
+
+    .creditos_texto{
+        margin-top: 15px;
+        border-bottom: 3px solid #3A4853;
+        border-left: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container{padding: 0 5vw;}
+
+    .corpo_box_destaque {padding: 6% 0 2% 0 ;}
+
+    .audio_container {width: 100%;}
+
+    .recursoAccordion .card-header a{color: #fff; display: block;  position: relative;}
+    .recursoAccordion .card-header a:hover{color: #C9EFFF;}
+    .recursoAccordion .card-body{background-color: #f1f1f1; border:none; }
+    .recursoAccordion .card-header a:after {
+      content: ""; /* fa-chevron-down */
+      font-family: 'FontAwesome';
+      position: absolute;
+      right: 0;
+    }
+
+    .recursoAccordion .card-header a[aria-expanded="true"]:after {
+      content: ""; /* fa-chevron-up */
+    }
+
+    .recursoAccordion  .card-body img{width: 100%}
+
+    .destaque-full p , .destaque-full li{font-size: 20px;}
+
+     .legenda-imgFull{
+        width: auto;
+        max-width: 90vw;
+        background-color: rgba(0, 0, 0, .6);
+        color: white;
+        bottom: 10px;
+        left:10px;
+        font-size:0.75em;
+        line-height: normal;
+       
+    }
+    .legenda-imgFull i{ font-size:1.7em;}
+}
+
+@media screen and (max-width: 1023px) {
+    
+    .legentaTop-spanDesktop{display: none;}
+    .legentaTop-spanMobile{display: inline-block;}
+
+    #menuSupesnsoapesentacao  .menu-suspenso {
+        width: 50vw;
+        height: auto;
+        margin-left: 0px;
+        line-height: 12px !important;
+        box-shadow: none;
+        background-color:#232e36; 
+        overflow: hidden;
+        border-top: 3px solid #3A4853;
+    }
+
+    .ementas .btn{display: block; margin: 10px auto; width: 100%; }
+
+    .conteudista{margin: 20px 0}
+    .conteudista img{margin: 20px 0}
+
+    .ementas{margin-bottom: 60px;}
+
+    .si-sticky {
+        position: fixed;
+        top: unset;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+    }
+    
+
+    .menu-suspenso {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        line-height: 12px !important;
+        box-shadow: none;
+        background-color:#232e36; 
+        overflow: hidden;
+        border-top: 3px solid #3A4853;
+    }
+
+    .menu-suspenso span{
+        font-size: 10px;
+        color: #fff;
+        text-shadow: none;
+    }
+
+    .i-rounded, .i-plain, .i-circled, .i-bordered, .menu-suspenso {
+        display: inline-block;
+        text-align: center !important;
+        font-size: 10px;
+        color: #FFF;
+        cursor: pointer;
+        font-style: normal;
+    }
+
+    .modal-conteudo .modal-body{
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .modal-conteudo .modal-lg {
+        max-width: 100%;        
+        width: 85% !important;      
+        max-height: 100%;
+        margin:0;
+        padding-right: 0 !important;
+        float: right;
+
+    }
+
+    .hr-titulo{
+    width: 40vw!important;
+    margin-top: 2vh!important;
+    }
+
+    footer{padding-bottom: 70px!important}
+
+    .destaque-citacao blockquote {
+    line-height: 1.5;
+    font-size: 1.3em;
+    font-weight: 700;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 576px) {}
+
+@media screen and (min-width: 768px) {
+    .material_icon_2colunas {
+    font-size: 6em;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .scaleBox:hover {
+     transform: scale(1.2);
+     transition: all 1s;
+     z-index: 99;
+     box-shadow: 0 8px 6px -6px #bbb;
+}
+}
+
+
+
+@media screen and (min-width: 1024px) {
+   
+    .container{
+        max-width: 1000px!important;
+     } 
+    .material_icon_2colunas {font-size: 8em;}
+
+    .recursoAccordion .card-body img{width: auto;}
+
+    .modal-conteudo .modal-body{
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding-right: 20px;
+        width: 100%;
+    }
+
+    .modal-conteudo .modal-lg {
+        max-width: 100%;        
+        width: 45% !important;      
+        max-height: 100%;
+        margin:0;
+        padding-right: 0 !important;
+        float: right;
+
+    }
+
+         /* Let's get this party started */
+    .modal-conteudo ::-webkit-scrollbar {
+        width: 12px;
+    }
+     
+    /* Track */
+    .modal-conteudo ::-webkit-scrollbar-track {
+        /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1); */
+        background-color:  #303a41;
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+    }
+     
+    /* Handle */
+    .modal-conteudo ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+        background: rgba(84,106,120,0.8); 
+        
+    }
+    .modal-conteudo ::-webkit-scrollbar-thumb:window-inactive {
+        background: rgba(104,114,120,0.4); 
+    }
+
+    .modal-rodape .modal-lg {
+        max-width: 100%;
+        width: 100%;
+        max-height: 100%;
+        margin:0;
+        padding: 0 !important;
+    }
+
+    .close-rodape{
+        color: #fff;
+        opacity: 1;
+        text-shadow: none;
+    }
+
+    .close-rodape:hover{
+        color: #fff;
+        opacity: 1;
+        text-shadow: 0;
+    }
+
+    .legentaTop-spanDesktop{display: inline-block;}
+    .legentaTop-spanMobile{display:none;}
+}
+
+
+
+

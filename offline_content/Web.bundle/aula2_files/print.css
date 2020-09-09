@@ -1,0 +1,324 @@
+@charset "UTF-8";
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Krub:300,300i,500,500i,700,700i');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');
+
+@import url("colors.min.css");
+@import url("tipografia.css");
+@import url("recursos.css");
+@import url("atividades.css");
+
+
+
+html, body {
+    width: 297mm;
+    height: 420mm;
+}
+
+@page:first {
+    size: A3 portrait!important;
+    size: 297mm 420mm!important;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    margin-left: 0cm;
+    margin-right: 0cm;
+
+}
+@page {
+    size: A3 portrait!important;
+    size: 297mm 420mm!important;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    margin-left: 0cm;
+    margin-right: 0cm;
+
+}
+.d-print-none {
+    display: none !important;
+}
+.d-print-inline {
+    display: inline !important;
+}
+.d-print-inline-block {
+    display: inline-block !important;
+}
+.d-print-block {
+    display: block !important;
+}
+.d-print-table {
+    display: table !important;
+}
+.d-print-table-row {
+    display: table-row !important;
+}
+.d-print-table-cell {
+    display: table-cell !important;
+}
+.d-print-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.d-print-inline-flex {
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+}
+
+body{
+margin:0 auto!important;
+padding:0!important;
+overflow-x: hidden!important;
+width: 100%!important;
+
+}
+
+#conteudo{margin: 0 auto!important;}
+
+#conteudo .container-fluid{width: 100%!important;}
+
+#conteudo .container {
+  max-width: 1000px !important;
+  padding: 0!important;
+  display: block!important;
+}
+
+a:link:after { content: " <" attr(href) "> "; }
+
+a[href^="javascript:"]:after, a[href^="#"]:after {content: "";}
+a[href^="javascript:"]:after, a[href^=""]:after {content: "";}
+
+a[href^="#"]:after {content: "";}
+a[href^=""]:after {content: "";}
+
+.collapsed:link:after, a[href^=""]:after {content: "";}
+
+.link-modal:link:after, a[href^=""]:after {content: "";}
+
+.btn:link:after, a[href^=""]:after {content: "";}
+
+a:after > img {content: "";}
+
+a:not(:local-link):after {content:" <" attr(href) "> ";} 
+
+.table td, .table th {background-color: transparent!important;}
+
+#topicosAula, .acessibilidade, .si-sticky{display: none!important;}
+
+iframe[src^="http:"]:before, iframe[src^="#"]:after {content: " (" attr(src) ")";}
+iframe[src^="http:"]:before, iframe[src^=""]:after {content: " (" attr(src) ")";}
+
+iframe[src^="#"]:before {content: " (" attr(src) ")";}
+iframe[src^=""]:before {content: " (" attr(src) ")";}
+
+.embed-responsive:before { content: attr(src); }
+
+.embed-responsive-item {display: none}
+
+blockquote{border: none!important;}
+
+p, ul{orphans: 3; widows: 3;}
+
+.twentytwenty-container{display: block; width: 100%;}
+.twentytwenty-before, .twentytwenty-after{display: inline-block; width: 49%; margin: 0; padding: 0; }
+
+
+#box-titulo-disciplina{
+    margin-top:300px; 
+    text-align: center;
+    font-size: 24pt;
+}
+
+#box-titulo-aula{
+    text-align: center;
+    font-size: 20pt;
+}
+img{width: 100%;}
+
+.img_abertura2{
+    height: -webkit-fill-available;
+    display: block;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #97c7de!important;
+    height: 100vh!important;
+    width: 100vw!important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#box-apresentacao-objetivos{
+    page-break-before: always !important;
+    page-break-after: always !important;
+    page-break-inside: avoid!important;
+}
+
+#box-apresentacao{
+    page-break-before: always !important;
+    page-break-inside: avoid!important;
+    color: white;
+}
+
+.ementas .col-12{margin: 0; padding: 0;}
+
+.tab-content {display: block!important;}
+
+.tab-content>.tab-pane{
+    display: inline-table;
+    text-align: left;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: 0 30px;
+}
+
+.table-responsive .MathJax{font-size: 18px!important; overflow: hidden!important;}
+
+.collapse:not(.show) {display: block!important;}
+
+
+.swiper-container-navigation .swiper-wrapper .swiper-slide, .swiper-img-horizontal .swiper-wrapper .swiper-slide, .swiper-container-progress .swiper-wrapper .swiper-slide, .swiper-container-multiple .swiper-wrapper .swiper-slide{margin:20px 0!important;}
+
+.swiper-img-horizontal .swiper-wrapper .swiper-slide .swiper-slide-img{margin: 20px 0!important; display: block;}
+.swiper-img-horizontal .swiper-wrapper .swiper-slide .swiper-slide-img .row{width: 300px!important; max-width: 300px!important; display: inline-flex!important;}
+.swiper-img-horizontal .swiper-wrapper .swiper-slide .swiper-slide-txt{margin: 20px 0!important; display: block; width: 100%!important; max-width: 100%!important;}
+
+
+
+.swiper-img-vertical .swiper-slide {width: 100%!important;}
+.swiper-img-horizontal .swiper-slide {width: 100%!important; margin: 30px 0;}
+
+.swiper-container-multiple .swiper-slide{display: inline-flex!important; margin-right: 10px!important; width: 250px!important;}
+.swiper-img .swiper-slide{display: inline-flex!important; margin: 0!important; padding: 0!important; width: 200px!important;}
+.swiper-img .swiper-slide img{width: 100%!important;} 
+
+#gotoTop{display: none!important;}
+
+.ementas .btn{display: none;}
+
+.titulo-notas{
+    max-width: 1000px !important;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.box-destaque h4 {padding: 10px 0!important;}
+
+footer{display:none;}
+
+.fade:not(.show) {opacity: 1;}
+
+#modalVideo, #modalAcessibilidade{display: none!important;}
+
+.modal{
+    position: static!important;
+    display: contents!important;
+    overflow: inherit!important;
+    max-width: 1000px!important;
+}
+
+.modal button, .modal .close{display: none;}
+
+.modal .modal-dialog{
+    max-width: 1000px!important;
+    margin-bottom: 100px;
+}
+.modal .modal-dialog .modal-content {
+    /* position: relative; */
+    display: -ms-flexbox;
+    display: block;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color:transparent;
+    background-clip: padding-box;
+    border: none;
+    border-radius: .3rem;
+    outline: 0;
+}
+.modal .modal-dialog .modal-content .modal-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: none;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+
+
+
+/* Atividade */
+
+.atividades .btn{display: none;}
+.atividade-feedback_negativo{display: none!important;}
+
+
+.atividades{
+    background-color: #eee;
+    padding: 20px !important;
+    margin:30px 0 !important;
+    text-align: justify-all !important;
+    page-break-inside: avoid;
+}
+
+
+.atividade-feedback_positivo{
+ display: none!important;
+}
+
+.atividades .form-control {display: none!important;} 
+
+.texto-feedback_padrao{
+    font-style: italic;
+}
+
+.separador_feedback-01{
+   
+    height: 2px;
+    background: #eee;
+  }
+
+  .separador_feedback-02{
+   
+    height: 2px;
+    background: #ec1c24;
+  }
+
+   .separador_feedback-03{
+    height: 2px;
+    background: #eee;
+  }
+
+  .atividade-discursiva-feedback{   display: none!important;}
+
+  
+ /* Separadores */
+
+  .separador_diagonal_1, .separador_diagonal_1_2, .separador_diagonal_2, .separador_diagonal_2_2, .separador_curvo_1, .separador_curvo_1_2 {display: none;}
+
+  /* Pagebreaks */
+
+#conteudo .container-fluid .container .row, .swiper-container-navigation .swiper-wrapper .swiper-slide, .swiper-img-horizontal .swiper-wrapper .swiper-slide, .swiper-container-progress .swiper-wrapper .swiper-slide, .swiper-container-multiple .swiper-wrapper .swiper-slide, .card, .recurso-beforeandafter, math, p, img{page-break-inside: avoid;}
+
+#conteudo .container{page-break-before:avoid; page-break-after:avoid;}
+#conteudo .container-fluid{box-decoration-break: slice; -moz-background-inline-policy:bounding-box;}
+
+.recurso-beforeandafter{display: block!important; margin: 50px 0;}
+
+
+
+/* Animação */
+[data-aos] {
+    visibility: visible;
+  }
+  [data-aos].animated {
+    visibility: visible;
+  }
